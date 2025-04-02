@@ -52,20 +52,28 @@ export const categories: Category[] = [
   },
   {
     id: "7",
-    name: "Education",
-    slug: "education",
-    description: "Schools, tutoring centers, and training institutes",
-    icon: "📚",
-    count: 134
+    name: "Technology",
+    slug: "technology",
+    description: "Tech stores, repair services, and electronics",
+    icon: "💻",
+    count: 142
   },
   {
     id: "8",
-    name: "Technology",
-    slug: "technology",
-    description: "IT services, electronics stores, and tech companies",
-    icon: "💻",
+    name: "Education",
+    slug: "education",
+    description: "Schools, tutoring centers, and educational resources",
+    icon: "🎓",
     count: 128
   },
+  {
+    id: "9",
+    name: "Arts & Entertainment",
+    slug: "arts-entertainment",
+    description: "Museums, galleries, theaters, and performance venues",
+    icon: "🎭",
+    count: 100
+  }
 ];
 
 // Mock Featured Businesses for Homepage
@@ -218,7 +226,7 @@ export const businesses: Business[] = [
       },
       {
         id: "203",
-        url: "https://images.unsplash.com/photo-1537432376769-00f5c2f4c8d2?q=80&w=2125&auto=format&fit=crop",
+        url: "https://images.unsplash.com/photo-1537432376769-541ce45f1eea?q=80&w=2125&auto=format&fit=crop",
         alt: "Server room",
         isPrimary: false
       }
