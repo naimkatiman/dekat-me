@@ -1,5 +1,25 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+# Dekat.me
+
+A local business directory platform connecting users with nearby businesses and services.
+
+## Features
+
+- Business listings with detailed information
+- User reviews and ratings
+- Category-based browsing
+- Location-based search
+- Interactive map view
+- Business submission portal
+
+## Technology Stack
+
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Supabase
+
 ## Getting Started
 
 First, run the development server:
