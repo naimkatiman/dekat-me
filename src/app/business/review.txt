@@ -1,0 +1,1 @@
+For static export purposes, this file exists to help with dynamic routes.
