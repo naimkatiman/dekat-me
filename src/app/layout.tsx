@@ -18,8 +18,18 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "dekat.me - Malaysia Business Directory",
-  description: "A modern business directory for Malaysian businesses - discover local businesses with geolocation search",
+  title: "Dekat.me | Find Local Malaysian Businesses Near You",
+  description: "Discover and connect with local Malaysian businesses, read reviews, and find services in your area with our modern business directory platform.",
+  keywords: "Malaysia, business directory, local businesses, reviews, services, nearby",
+  authors: [{ name: "Dekat.me Team" }],
+  openGraph: {
+    title: "Dekat.me | Find Local Malaysian Businesses Near You",
+    description: "Discover and connect with local Malaysian businesses, read reviews, and find services in your area.",
+    url: "https://dekat.me",
+    siteName: "Dekat.me",
+    locale: "en_MY",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
